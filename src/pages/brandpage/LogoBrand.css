@@ -1,0 +1,20 @@
+.BrandLogo {
+    display: flex;
+    justify-content: center;
+}
+
+.logo-list {
+    list-style-type: none;
+    padding: 0;
+    display: flex; /* Make the list items flex containers */
+    align-items: center; /* Center the items vertically */
+}
+
+.logo-list li {
+    margin: 0 10px; /* Adjust the margin between logos */
+}
+
+.logo-list li img {
+    max-width: 80px; /* Set maximum width for the images */
+    height: auto; /* Ensure the height adjusts proportionally */
+}
